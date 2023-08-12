@@ -1,0 +1,15 @@
+ol {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+  }
+.links li {
+    display: inline;
+    padding-right: 0.2rem;
+  }
+.links li :hover{
+  color: transparent;
+  text-shadow: 0 0 1px rgba(0,47,115,255);
+  font-weight: 400;
+}  
