@@ -10,13 +10,13 @@ export default function WhoAreWe() {
           <div class="container py-5">
             <div class="row g-5">
               <div class="col-lg-7">
-                <div class="section-title position-relative pb-3 mb-3">
+                <div class="section-title position-relative pb-3 mb-3 wow fadeInUp animate__animated animate__fadeInUp">
                   <h5 class="fw-bold text-primary text-uppercase">
                     Why Aadvi ?
                   </h5>
                   <h1 class="mb-0">Choose Excellence, Choose Us</h1>
                 </div>
-                <p style={{ textAlign: "justify" }}>
+                <p className="wow fadeInUp animate__animated animate__fadeInUp" style={{ textAlign: "justify" }}>
                 <p style={{marginBottom:"10px"}}>
                   In the dynamic realm of business, we specialize in crafting
                   tailored solutions that empower clients to outshine

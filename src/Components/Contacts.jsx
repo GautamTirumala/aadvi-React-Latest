@@ -5,7 +5,7 @@ import "../Assets/css/style.css"
 function Contacts() {
   return (
     <div>
-        <div style={{ maxWidth: '70vw' }} class="container-fluid py-5 wow fadeInUp d-flex justify-content-center align-items-center" data-wow-delay="0.1s">
+        <div style={{ maxWidth: '70vw' }} class="container-fluid py-5 wow fadeInUp animate__animated animate__fadeInUp d-flex justify-content-center align-items-center" data-wow-delay="0.1s">
         <div class="container">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
@@ -13,7 +13,7 @@ function Contacts() {
             </div>
             <div class="row g-5 mb-5">
                 <div class="col-lg-6">
-                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center wow fadeIn animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{width: "60px", height: "60px"}}>
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
@@ -24,7 +24,7 @@ function Contacts() {
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                    <div class="d-flex align-items-center wow fadeIn animate__animated animate__fadeInUp" data-wow-delay="0.4s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{width:"60px", height:"60px"}}>
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
@@ -47,7 +47,7 @@ function Contacts() {
                 </div> */}
             </div>
             <div class="row g-5">
-                <div class="col-lg-12 wow slideInUp" data-wow-delay="0.3s">
+                <div class="col-lg-12 wow slideInUp animate__animated animate__slideInUp" data-wow-delay="0.3s">
                     <form action="https://formspree.io/f/mnqkqypd" method="post">
                         <div class="row g-3">
                             <div class="col-md-6">

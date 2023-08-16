@@ -25,7 +25,7 @@ function About() {
   return (
     <div>
     <AboutUs/>
-    <CultureAndDiversity/>
+    {/* <CultureAndDiversity/> */}
     <OurMissionOurVision/>
     <WhoAreWe/>
     <CoreValues/>

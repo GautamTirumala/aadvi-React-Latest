@@ -20,6 +20,7 @@ import IOT from "./SubComponents/ServicesPages/IOT";
 import Staffing_Solutions from "./SubComponents/ServicesPages/StaffingSolutions"; 
 import MobileApp from "./SubComponents/ServicesPages/MobileApp"; 
 import Testing from "./SubComponents/ServicesPages/Testing";
+import Chatbot from "./SubComponents/ChatBot/Chatbot"
  
 function App() { 
   const currentPage = window.location.pathname; 
@@ -52,6 +53,16 @@ function App() {
       live: false, 
     }).init(); 
   }, []); 
+
+  useEffect(()=>{
+    if(location.pathname !== '/' && location.pathname !=='/web_development' && location.pathname !=='/web_design' && location.pathname !=='/staffing_solutions' && location.pathname !=='/mobile_apps' && location.pathname !=='/testing' && location.pathname !=='/iot'){
+    window.scrollTo(0,850);
+    }
+    else{
+      window.scrollTo(0,0)
+    }
+    
+  },[location.pathname])
  
 
  
@@ -65,6 +76,7 @@ function App() {
       > 
         <div class="spinner"></div> 
       </div> 
+      {/* <Chatbot/> */}
       <Navbar  /> 
       {currentPage === "/" ? (
         <Carousel123 />

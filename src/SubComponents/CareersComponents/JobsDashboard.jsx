@@ -49,6 +49,8 @@ function JobDashboard() {
                   <div className="posting">
                     {/* heading */}
                     <h5 className="heading">{job.jobHeading}</h5>
+                    <span className="heading">{job.minExperience}</span>-<span className="heading">{job.maxExperience}</span>
+                    <span  className="heading">Experience</span>
 
                     {/* discription */}
                     <p className="description">{job.jobDescription}</p>

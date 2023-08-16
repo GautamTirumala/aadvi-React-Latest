@@ -7,7 +7,6 @@ export default function JobsForm(props) {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [role, setRole] = useState("");
   const [resume, setResume] = useState("");
   const [yearsOfExperience, setYearsOfExperience] = useState("");
 
@@ -15,38 +14,50 @@ export default function JobsForm(props) {
     props.onClose(); // Call the onClose callback from props to close the modal
   };
   const navigate = useNavigate();
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const role = props.jobHeading;
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    const formData = new FormData();
-    formData.append("name", fullName);
-    formData.append("email", email);
-    formData.append("phone", phone);
-    formData.append("role", role);
-    formData.append("yearsOfExperience", yearsOfExperience);
-    formData.append("resume", resume);
+  //   const formData = new FormData();
+  //   formData.append("name", fullName);
+  //   formData.append("email", email);
+  //   formData.append("phone", phone);
+  //   formData.append("role", role);
+  //   formData.append("yearsOfExperience", yearsOfExperience);
+  //   formData.append("resume", resume);
 
-    try {
-      const response = await axios.post(
-        "https://formspree.io/f/xvojkpov",
-        formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
-      );
+  //   try {
+  //     const response = await axios.post(
+  //       "https://formspree.io/f/xvojkpov",
+  //       formData,
+  //       {
+  //         headers: {
+  //           "Content-Type": "multipart/form-data",
+  //         },
+  //       }
+  //     );
 
-      if (response.status === 200) {
-        // Successful submission
-        console.log("Form submitted successfully");
-      }
-    } catch (error) {
-      // Handle error
-      console.error("Error submitting form:", error);
+  //     if (response.status === 200) {
+  //       // Successful submission
+  //       console.log("Form submitted successfully");
+  //     }
+  //   } catch (error) {
+  //     // Handle error
+  //     console.error("Error submitting form:", error);
+  //   }
+  // };
+  const handleSubmit =async ()=>{
+    const userData = {
+      "userName" : fullName,
+      "email" : email,
+      "phone" : phone,
+      "role" : role,
+      "experience" : yearsOfExperience,
+      "resume" : resume
     }
-  };
-
+    console.log(userData);
+    await axios.post("http://localhost:5000/upload",userData)
+  }
   return (
     <>
       {isOpen && (
@@ -145,7 +156,7 @@ export default function JobsForm(props) {
                     name="resume"
                     type="file"
                     id="resume"
-                    onChange={(e) => setResume(e.target.files[0])}
+                    onChange={(e) =>{ console.log(e.target.files[0]); setResume(e.target.files[0])}}
                     accept=".pdf,.doc,.docx"
                     required
                   />
