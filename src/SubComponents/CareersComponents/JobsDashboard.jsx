@@ -12,10 +12,7 @@ function JobDashboard() {
   const handleGet = async () => {
     try {
       let response = await axios.get("http://localhost:5000/");
-      console.log(response.data);
-
       setJobPosts(response.data);
-      console.log(jobPosts);
     } catch (err) {
       alert("Error occured please try again later ");
     }
@@ -35,8 +32,8 @@ function JobDashboard() {
   return (
     <>
       <div >
-        <div className="container jobs_container_title">
-          <div class="section-title left-block text-center">
+        <div className="container jobs_container_title pt-5">
+          <div class="section-title left-block text-center pt-3">
             <h6>Latest Jobs</h6>
           </div>
         </div>

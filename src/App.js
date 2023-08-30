@@ -23,8 +23,14 @@ import Testing from "./SubComponents/ServicesPages/Testing";
 import Chatbot from "./SubComponents/ChatBot/Chatbot"
  
 function App() { 
+  const [chatbotVisible, setChatbotVisible] = useState(false);
+
+  const toggleChatbot = () => {
+    setChatbotVisible(!chatbotVisible);
+  };
   const currentPage = window.location.pathname; 
  const location= useLocation();
+ 
 
  const [wowInitialized, setWowInitialized] = useState(false);
 
@@ -56,7 +62,7 @@ function App() {
 
   useEffect(()=>{
     if(location.pathname !== '/' && location.pathname !=='/web_development' && location.pathname !=='/web_design' && location.pathname !=='/staffing_solutions' && location.pathname !=='/mobile_apps' && location.pathname !=='/testing' && location.pathname !=='/iot'){
-    window.scrollTo(0,850);
+    window.scrollTo(0,900);
     }
     else{
       window.scrollTo(0,0)
@@ -76,7 +82,13 @@ function App() {
       > 
         <div class="spinner"></div> 
       </div> 
-      {/* <Chatbot/> */}
+      {/* <div
+        className={`chatbot-toggle ${chatbotVisible ? 'active' : ''}`}
+        onClick={toggleChatbot}
+      >
+        How can I help you?
+      </div> */}
+      {/* {chatbotVisible && <Chatbot />} */}
       <Navbar  /> 
       {currentPage === "/" ? (
         <Carousel123 />

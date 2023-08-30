@@ -1,17 +1,36 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
-  
+
+.chatbot-toggle {
+  position: fixed;
+  bottom: calc(1rem + 5px); /* Adjust this value as needed */
+  right: calc(7rem + 1px); /* Adjust this value as needed */
+  background-color: #06A3DA;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 100; /* Ensure it's above the chat container */
+}
+
+.chatbot-toggle.active {
+  background-color: #0485B9;
+}
+
+.chatbot-toggle:hover {
+  background-color: #0485B9;
+}
   .chat-container {
-    max-width: 400px;
+    max-width: 25vw;
+    min-width: 25vw;
     margin: 20px auto;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
+    position: fixed;
+    bottom: 3rem;
+    right: 7rem;
+    z-index: 99;
   }
   
   .chat-header {
