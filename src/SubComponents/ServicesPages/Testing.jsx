@@ -22,14 +22,14 @@ export default function Testing() {
       <div className="container py-3"> 
         <div className="row"> 
           <div className="col-lg-8 about mt-3"> 
-            <h5 className="mb-3">Testing</h5> 
+            <h5 className="mb-3"><strong>Testing</strong></h5> 
             <p style={{ textAlign: 'justify' }}> At Aadvi, we take pride in offering a holistic approach to web development. As a testament to our commitment to excellence, we are thrilled to introduce our comprehensive testing services that ensure your website not only meets but exceeds industry standards.</p>
             <p style={{ textAlign: 'justify' }}>Why Testing Matters 
  A flawlessly functioning website is the cornerstone of a successful online presence. With user expectations at an all-time high, even the slightest glitch or slow load time can lead to lost opportunities. This is where our dedicated testing services come into play. </p>
             <p style={{ textAlign: 'justify' }}> Our Testing Services 
  We offer a wide range of testing services that cover every aspect of your website's functionality, security, and performance. Here's how we can help:</p>
- <p style={{ textAlign: 'justify' }}>Functional Testing: Our meticulous approach includes testing every feature, link, and interaction to ensure they perform seamlessly across different devices and browsers.</p>
- <p style={{ textAlign: 'justify' }}>User Experience Testing: We go beyond functionality to evaluate the user experience. Our testing identifies any hurdles that might hinder users' interactions with your site.</p> 
+ <p style={{ textAlign: 'justify' }}><strong>Functional Testing:</strong> Our meticulous approach includes testing every feature, link, and interaction to ensure they perform seamlessly across different devices and browsers.</p>
+ <p style={{ textAlign: 'justify' }}><strong>User Experience Testing:</strong> We go beyond functionality to evaluate the user experience. Our testing identifies any hurdles that might hinder users' interactions with your site.</p> 
 
           </div> 
           <div className='col-lg-4 d-flex justify-content-center align-items-center'> 
@@ -38,8 +38,8 @@ export default function Testing() {
         </div> 
         <div className="row"> 
           <div className="col-12"> 
-          <p style={{ textAlign: 'justify' }}>Performance Testing: Don't let sluggish loading times frustrate your visitors. Our performance testing guarantees that your website loads swiftly and consistently.</p>           
-          <p style={{ textAlign: 'justify' }}>Security Testing: Cyber threats are real, and protecting your users' data is paramount. Our security testing identifies vulnerabilities, helping you secure your website effectively.</p>            
+          <p style={{ textAlign: 'justify' }}><strong>Performance Testing:</strong> Don't let sluggish loading times frustrate your visitors. Our performance testing guarantees that your website loads swiftly and consistently.</p>           
+          <p style={{ textAlign: 'justify' }}><strong>Security Testing:</strong> Cyber threats are real, and protecting your users' data is paramount. Our security testing identifies vulnerabilities, helping you secure your website effectively.</p>            
           <p style={{ textAlign: 'justify' }}>A Partner in Your Success 
   What sets Aadvi apart is our dedication to being more than just a service provider. We are your partners in ensuring your website's success. Our testing services extend beyond identifying issues; we work alongside your team to implement solutions.</p>            
           <p style={{ textAlign: 'justify' }}>Our Comprehensive Approach 

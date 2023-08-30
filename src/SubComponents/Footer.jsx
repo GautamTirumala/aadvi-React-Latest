@@ -72,9 +72,7 @@ function Footer() {
                             <img style={{height: "3em",width: "9em;"}} src={aadvi_logo} alt="Image"></img> 
  
                         </Link> 
-                        <p class="mt-3 mb-4">Aadvi Tech. Solutions, A Leading Provider of technology solutions for business of all sizes. Our team
-of experts has a proven track record of delivering innovative, cost-effective and efficient
-solutions for all the business..</p>  
+                        <p class="mt-3 mb-4">Aadvi Tech. Solutions, A Leading Provider of technology solutions for business of all sizes.</p>  
                     </div> 
                 </div> 
                 <div class="col-lg-8 col-md-6 d-flex justify-content-around "> 
@@ -85,12 +83,11 @@ solutions for all the business..</p>
                             </div> 
                             <div class="d-flex mb-2"> 
                                 <i class="bi bi-geo-alt text-primary me-2"></i> 
-                                <p class="mb-0">plot No.:456, Madhapur, 
-                Hyderabad</p> 
+                                <p class="mb-0">Plot No: 467, 1st Floor, Gowri Shankar Nilayam, Madhapur, Telangana 500081</p> 
                             </div> 
                             <div class="d-flex mb-2"> 
                                 <i class="bi bi-envelope-open text-primary me-2"></i> 
-                                <p class="mb-0">praveen@aadvisolutions.com</p> 
+                                <p class="mb-0">hr@aadvisolutions.com</p> 
                             </div> 
                             <div class="d-flex mb-2"> 
                                 <i class="bi bi-telephone text-primary me-2"></i> 

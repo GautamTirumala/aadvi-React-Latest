@@ -41,7 +41,7 @@ const contact = activePage === "/contact";
               style={{ height: "45px" }} 
             > 
               <small className="me-3 text-light"> 
-                <a style={{color:"#fff"}} target="_blank" href="https://www.google.com/maps/place/Aadvi+Tech+Solutions/@17.452587,78.390246,12z/data=!4m6!3m5!1s0x3bcb91fb7d6737a3:0xaa6030a25754c89a!8m2!3d17.4525865!4d78.3902458!16s%2Fg%2F11g0m45hq0?hl=en&entry=ttu"><i className="fa fa-map-marker-alt me-2"></i>plot No.:456, 
+                <a style={{color:"#fff"}} target="_blank" href="https://www.google.com/maps/place/Aadvi+Tech+Solutions/@17.452587,78.390246,12z/data=!4m6!3m5!1s0x3bcb91fb7d6737a3:0xaa6030a25754c89a!8m2!3d17.4525865!4d78.3902458!16s%2Fg%2F11g0m45hq0?hl=en&entry=ttu"><i className="fa fa-map-marker-alt me-2"></i>Plot No: 467, 
                 Madhapur, Hyderabad 
                 </a>
               </small> 
@@ -50,7 +50,7 @@ const contact = activePage === "/contact";
               </small> 
               <small className="text-light"> 
                 <i className="fa fa-envelope-open me-2"></i> 
-                praveen@aadvisolutions.com 
+                hr@aadvisolutions.com
               </small> 
             </div> 
           </div> 

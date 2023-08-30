@@ -22,9 +22,9 @@ export default function WebDevelopment() {
       <div className="container pt-3">
       <div className="row">
   <div className="col-lg-8 col-md-12 about mt-3">
-    <h5 className="mb-3">Permanent Staffing</h5>
-    <p style={{ textAlign: 'justify' }}>In our "Permanent Staffing" solution, candidates become an integral part of our team, receiving consistent remuneration during the defined period. We ensure a seamless transition by providing a mutual agreement that grants the client company the option to hire the candidate as a full-time employee at a later stage. This approach not only guarantees workforce stability but also presents an opportunity to assess the candidate's compatibility before extending a permanent offer.</p>
-    
+  <h5 className="mb-3">Placement Services</h5>
+          <p style={{ textAlign: 'justify' }}>With our specialized "Placement Services," we meticulously facilitate the ideal match between highly skilled candidates and specific projects. Whether for a fixed duration or throughout a particular project's lifecycle, we diligently identify candidates who possess the requisite expertise to contribute effectively. This strategic arrangement ensures that your workforce remains inherently dynamic, readily adaptable, and precisely aligned with the evolving project requirements. Our tailored approach to candidate selection and resource optimization fosters a seamlessly integrated talent acquisition process, promoting strategic workforce management.</p>
+   
     {/* Rest of the content */}
   </div>
   <div className='col-lg-4 col-md-12 d-flex justify-content-center align-items-center'>
@@ -33,10 +33,12 @@ export default function WebDevelopment() {
 </div>
         <div className="row">
           <div className="col-12">
+          <h5 className="mb-3">Permanent Staffing</h5>
+    <p style={{ textAlign: 'justify' }}>In our "Permanent Staffing" solution, candidates become an integral part of our team, receiving consistent remuneration during the defined period. We ensure a seamless transition by providing a mutual agreement that grants the client company the option to hire the candidate as a full-time employee at a later stage. This approach not only guarantees workforce stability but also presents an opportunity to assess the candidate's compatibility before extending a permanent offer.</p>
+    
           <h5 className="mb-3">Contract to Hire</h5>
           <p style={{ textAlign: 'justify' }}>Our unique "Contract to Hire" strategy goes beyond recruitment. We cultivate new talents through hands-on involvement in real-time projects. These candidates are groomed to be industry-ready and are then deployed to our clients. This distinctive process offers clients the advantage of accessing skilled resources while also evaluating their potential fit within the organization. It's more than recruitment; it's the initiation of a promising professional journey.</p>
-          <h5 className="mb-3">Placement Services</h5>
-          <p style={{ textAlign: 'justify' }}>With our "Placement Services," we facilitate the ideal match between skilled candidates and specific projects or timeframes. Whether for a fixed duration or a particular project's lifecycle, we identify candidates who possess the requisite expertise to contribute effectively. This arrangement ensures that your workforce remains dynamic, adaptable, and precisely aligned with project requirements.</p>
+          
           <h5 className="mb-3">Contract Staffing</h5>
           <p style={{ textAlign: 'justify' }}>Our "Contract Staffing" solution provides a direct avenue for top-tier talent to integrate seamlessly into your company's operations. Through this approach, candidates are placed within your organization under our guidance. This fosters a collaborative environment where your team can access specialized skills and knowledge for the duration required. The result is a workforce that complements your goals and enhances overall productivity.</p>
           <h5 className="mb-3">Train and Deploy</h5>

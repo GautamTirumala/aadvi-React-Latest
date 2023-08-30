@@ -21,10 +21,10 @@ export default function AboutUs() {
        <div class="container py-5">
          <div class="row g-5">
            <div class="col-lg-7">
-             <div class="section-title position-relative pb-3 mb-5">
-               <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
+             <div class="section-title position-relative pb-3 mb-4">
+               <h5 class=" fw-bold text-primary text-uppercase">About Us</h5>
                <h1 class="mb-0">
-                 The Best IT Solution With 5 Years of Experience
+               Delivering Excellence in IT Solutions: Your Partner for Exceptional Expertise
                </h1>
              </div>
              <p class="mb-4">

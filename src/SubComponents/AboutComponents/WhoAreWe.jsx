@@ -21,7 +21,7 @@ export default function WhoAreWe() {
                   In the dynamic realm of business, we specialize in crafting
                   tailored solutions that empower clients to outshine
                   competitors and lead in innovation. With unwavering
-                  commitment, we've completed a thousand transformative
+                  commitment, we've completed many transformative
                   partnerships, exemplifying our dedication to exceptional
                   results and lasting bonds.</p><p style={{marginBottom:"10px"}}> Our IoT and mobile app experts
                   create visually appealing web designs reflecting brand

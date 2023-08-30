@@ -15,6 +15,8 @@ const collaboratorImages = [
   "Softtek-logo.jpg",
   "Tectoro-logo.jpg",
   "unionSys.jpg",
+  "Cloud-Connects-Logo3.jpg",
+  "logo-sriventech.jpg"
 ];
 
 export default function CompaniesCarousel() {
@@ -35,7 +37,7 @@ export default function CompaniesCarousel() {
       >
         <div className="container py-5">
           <div className="bg-white">
-            <Marquee speed="100">
+            <Marquee speed="150">
               <div data-aos="fade-up">
                 {collaboratorImages.map((image, index) => (
                   <span key={index}>

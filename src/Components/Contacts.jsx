@@ -30,7 +30,7 @@ function Contacts() {
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Email</h5>
-                            <h6 class="text-primary mb-0">praveen@aadvisolutions.com</h6>
+                            <h6 class="text-primary mb-0">hr@aadvisolutions.com</h6>
                         </div>
                     </div>
                 </div>

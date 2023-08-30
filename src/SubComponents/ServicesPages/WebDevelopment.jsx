@@ -22,8 +22,8 @@ export default function WebDevelopment() {
       <div className="container py-3"> 
         <div className="row"> 
           <div className="col-lg-8 about mt-3"> 
-            <h5 className="mb-3">Web Development</h5> 
-            <p style={{ textAlign: 'justify' }}>We offer custom web development services" means that we provide specialized assistance in creating and building websites that are tailored to the unique needs and requirements of individual businesses.</p>
+            <h5 className="mb-3"><strong>Web Development</strong></h5> 
+            <p style={{ textAlign: 'justify' }}>We offer custom "web development services" means that we provide specialized assistance in creating and building websites that are tailored to the unique needs and requirements of individual businesses.</p>
             <p style={{ textAlign: 'justify' }}>Our services are designed to "help businesses build their online presence." This means that we assist companies in establishing a strong and effective representation on the internet. Having an online presence involves having a website that accurately reflects the company's brand, products, and services, making it easier for potential customers to find and interact with the business.</p>
             <p style={{ textAlign: 'justify' }}>Furthermore, we aim to help businesses "reach a larger audience." This implies that our custom web development services are geared towards expanding the business's visibility and accessibility. By creating well-designed websites, we enable businesses to attract more visitors and potential customers, ultimately increasing their reach and engagement with a wider demographic.</p>
             {/* Rest of the content */} 

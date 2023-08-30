@@ -19,7 +19,7 @@ export default function OurMissionOurVision(){
                             <h4>Our Mission</h4>
                             
                             <p class="mb-0">
-                            Our belief in the value of trust, transparency and flexibility, powered by our philosophy of 'customers first', ensures our commitment to customers
+                            Our belief in the value of trust, transparency and flexibility, powered by our philosophy of 'customers first', ensures our commitment to customers.
                        </p>
                         </div>
                     </div>

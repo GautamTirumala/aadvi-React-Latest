@@ -22,7 +22,7 @@ export default function WebDevelopment() {
       <div className="container py-3"> 
         <div className="row"> 
           <div className="col-lg-8 about mt-3"> 
-            <h5 className="mb-3">Web Design</h5> 
+            <h5 className="mb-3"><strong>Web Design</strong></h5> 
             <p style={{ textAlign: 'justify' }}>Our "team of experts" in web design possesses a high level of knowledge and skill in crafting visually appealing and effective websites. When we say "unique and visually appealing web designs," we mean that our designs are distinct and eye-catching, setting businesses apart from the competition in the online space.</p>
             <p style={{ textAlign: 'justify' }}>These web designs are created with the intention to "help businesses stand out online." In today's digital landscape, where numerous websites exist for various purposes, it's crucial for a business to have a design that captures attention and leaves a lasting impression on visitors. Our designs are not only aesthetically pleasing but also strategically structured to convey the business's brand identity, products, and services in a memorable way.</p>
             {/* Rest of the content */} 

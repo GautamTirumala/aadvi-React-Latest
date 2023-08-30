@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.870677e5.css",
+    "main.js": "/static/js/main.2ad06b16.js",
+    "static/media/mobile.jpg": "/static/media/mobile.43ad330018a1c509b0f1.jpg",
+    "static/media/testingImg.png": "/static/media/testingImg.5509dac32d749108d1da.png",
+    "static/media/carousel-1.jpg": "/static/media/carousel-1.0c731fe6459d52f225d3.jpg",
+    "static/media/handMeeting.jpg": "/static/media/handMeeting.a4a3ef6a1c9a78d6c3f9.jpg",
+    "static/media/staffing sol.jpg": "/static/media/staffing sol.98f042c45e4624688d21.jpg",
+    "static/media/whyAadviImg.jpg": "/static/media/whyAadviImg.bbe19debe661245e1dbe.jpg",
+    "static/media/web design.jpg": "/static/media/web design.d19ec42c544ce5b27d2b.jpg",
+    "static/media/about.jpg": "/static/media/about.375ed93a3c75edb9ed80.jpg",
+    "static/media/staffingsol.png": "/static/media/staffingsol.25cdde3369c9e1d5aae3.png",
+    "static/media/meeting.avif": "/static/media/meeting.b1cc499d8e310949a380.avif",
+    "static/media/Aadvi-Aa.png": "/static/media/Aadvi-Aa.235a8908154daa503a87.png",
+    "static/media/webdevelopment.jpg": "/static/media/webdevelopment.36c7c261d6eebe09403d.jpg",
+    "static/media/aadvi-logo.png": "/static/media/aadvi-logo.2d2b539757a5eed4dd38.png",
+    "static/media/IOT.avif": "/static/media/IOT.dbb9f91741693f9941ea.avif",
+    "static/media/handshake.avif": "/static/media/handshake.71bd7e7a43abc046d5bf.avif",
+    "index.html": "/index.html",
+    "main.870677e5.css.map": "/static/css/main.870677e5.css.map",
+    "main.2ad06b16.js.map": "/static/js/main.2ad06b16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.870677e5.css",
+    "static/js/main.2ad06b16.js"
+  ]
+}
