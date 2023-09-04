@@ -2,7 +2,7 @@ import React from "react";
 export default function OurMissionOurVision(){
     return(
         <>
-    <div class="container-fluid py-5 wow fadeInUp animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-lg-5 wow fadeInUp animate__animated animate__fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 {/* <h5 class="fw-bold text-primary text-uppercase"></h5> */}
@@ -26,10 +26,13 @@ export default function OurMissionOurVision(){
                 </div>
                 <div class="col-lg-4  wow zoomIn animate__animated animate__zoomIn" data-wow-delay="0.9s" style={{minHeight: "350px"}}>
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn animate__animated animate__zoomIn" data-wow-delay="0.1s"  src={require('../../Assets/image/handshake.avif')} style={{objectFit: "cover"}}/>
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn animate__animated animate__zoomIn" data-wow-delay="0.1s"  src={require('../../Assets/image/handshake-1.png')} style={{objectFit: "cover"}}/>
                     </div>
                 </div>
                 <div class="col-lg-4">
+
+
+                    
                     <div class="row g-5">
                         
                         <div class="col-12 wow zoomIn animate__animated animate__zoomIn" data-wow-delay="0.8s">

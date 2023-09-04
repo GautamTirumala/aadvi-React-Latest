@@ -3,7 +3,7 @@ export default function CoreValues() {
   return (
     <>
         <div
-          class="container-fluid py-2 wow fadeInUp animate__animated animate__fadeInUp"
+          class="container-fluid py-2 wow fadeInUp animate__animated animate__fadeInUp py-lg-5"
           data-wow-delay="0.1s"
         >
           <div class="container ">

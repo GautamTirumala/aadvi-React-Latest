@@ -143,9 +143,19 @@ function Footer() {
             </div> 
         </div> 
     </div> 
-    <div className='back-to-top-container'> 
-    {showTopBtn && <Link to={currentPage} onClick={BackToTophandleClick} className="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></Link>} 
-    </div> 
+    <div className='back-to-top-container'>
+  {showTopBtn && (
+    <Link
+      to={currentPage}
+      onClick={BackToTophandleClick}
+      className="btn btn-lg btn-primary btn-lg-square back-to-top"
+      title="Scroll Up" // Add the title attribute for the tooltip
+    >
+      <i className="bi bi-arrow-up"></i>
+    </Link>
+  )}
+</div>
+
     </div> 
   ) 
 } 

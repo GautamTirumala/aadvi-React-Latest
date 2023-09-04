@@ -13,6 +13,22 @@ function Services() {
                 <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
             </div>
             <div class=" row g-5  d-flex justify-content-center align-items-center">
+                
+                 {/* <!-- card-4 --> */}
+                 <div class="box col-lg-4 col-md-6 col-12 wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+                  <img
+                    
+                   src={require('../Assets/image/staffingsol.png')}
+                    alt="Staffing Solutions"
+                    width="50"
+                    height="60"
+                  />
+                  <h3>Staffing Solutions</h3>
+                  <p>
+                  We offer diverse staffing solutions to empower organizations to acquire, nurture, and optimize their workforce for sustained success.
+                  </p>
+                  <Link to="/staffing_solutions"><button>Read More...</button></Link>
+                </div>
                 {/* <!-- card-1 --> */}
                 <div class="box container-card col-12 col-lg-4 col-md-6 wow animate__animated animate__zoomIn service-item rounded" data-wow-delay="0.3s">
                   <img
@@ -63,21 +79,7 @@ function Services() {
                   </p>
                   <Link to="/mobile_apps"><button>Read More...</button></Link>
                 </div>
-                {/* <!-- card-4 --> */}
-                <div class="box col-lg-4 col-md-6 col-12 wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
-                  <img
-                    
-                   src={require('../Assets/image/staffingsol.png')}
-                    alt="Staffing Solutions"
-                    width="50"
-                    height="60"
-                  />
-                  <h3>Staffing Solutions</h3>
-                  <p>
-                  We offer diverse staffing solutions to empower organizations to acquire, nurture, and optimize their workforce for sustained success.
-                  </p>
-                  <Link to="/staffing_solutions"><button>Read More...</button></Link>
-                </div>
+               
                 {/* <!-- card-5 --> */}
                 <div class="box col-lg-4 col-md-6 col-12 wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
                   <img
@@ -99,7 +101,7 @@ function Services() {
                    
                    src={require('../Assets/image/testingImg.png')}
 
-                    alt="Internet Of Things"
+                    alt="Testing"
                     width="50"
                     height="60"
                   />
@@ -107,7 +109,7 @@ function Services() {
                   <p>
                   Experience web excellence with us. Our holistic approach includes comprehensive testing services, ensuring your site excels in functionality and performance.
                   </p>
-                  <Link to="/iot"><button>Read More...</button></Link>
+                  <Link to="/testing"><button>Read More...</button></Link>
                 </div>
             </div>
             </div>

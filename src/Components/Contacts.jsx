@@ -14,7 +14,7 @@ function Contacts() {
             <div class="row g-5 mb-5">
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center wow fadeIn animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{width: "60px", height: "60px"}}>
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{minWidth: "55px", height: "60px"}}>
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -23,9 +23,10 @@ function Contacts() {
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-6">
-                    <div class="d-flex align-items-center wow fadeIn animate__animated animate__fadeInUp" data-wow-delay="0.4s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{width:"60px", height:"60px"}}>
+                <div class="d-flex align-items-center wow fadeIn animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style={{minWidth: "55px", height: "60px"}}>
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -48,7 +49,7 @@ function Contacts() {
             </div>
             <div class="row g-5">
                 <div class="col-lg-12 wow slideInUp animate__animated animate__slideInUp" data-wow-delay="0.3s">
-                    <form action="https://formspree.io/f/mnqkqypd" method="post">
+                    <form action="https://formspree.io/f/meqbkenl" method="post">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <input name="Full name" type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style= {{height: "55px"}}/>

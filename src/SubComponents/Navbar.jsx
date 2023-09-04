@@ -153,6 +153,11 @@ const contact = activePage === "/contact";
                     className="dropdown-menu" 
                     aria-labelledby="dropdownMenuButton" 
                   > 
+                  <li> 
+                      <Link className="dropdown-item" to="/staffing_solutions"> 
+                        Staffing Solutions 
+                      </Link> 
+                    </li>
                     <li> 
                       <Link className="dropdown-item" to="/web_development"> 
                         Web Development 
@@ -163,19 +168,16 @@ const contact = activePage === "/contact";
                         Web Design 
                       </Link> 
                     </li> 
+                     
+                    
                     <li> 
-                      <Link className="dropdown-item" to="/staffing_solutions"> 
-                        Staffing Solutions 
+                      <Link className="dropdown-item" to="/iot"> 
+                        Internet Of Things 
                       </Link> 
                     </li> 
                     <li> 
                       <Link className="dropdown-item" to="/mobile_apps"> 
                         Mobile Apps 
-                      </Link> 
-                    </li> 
-                    <li> 
-                      <Link className="dropdown-item" to="/iot"> 
-                        Internet Of Things 
                       </Link> 
                     </li> 
                     <li> 

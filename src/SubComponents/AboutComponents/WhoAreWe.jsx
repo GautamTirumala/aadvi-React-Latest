@@ -41,11 +41,11 @@ export default function WhoAreWe() {
               <div class="col-lg-5" style={{ minHeight: "400px" }}>
                 <div class="position-relative h-100">
                   <img
-                    class="position-absolute w-100 h-100 rounded wow  animate__animated animate__zoomIn"
+                    class="position-absolute w-100 h-100 wow  animate__animated animate__zoomIn"
                     data-wow-delay="0.9s"
-                    src={require("../../Assets/image/whyAadviImg.jpg")}
+                    src={require("../../Assets/image/whyChooseAadvi.jpg")}
                     alt="About"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "cover",boxShadow: "rgba(0, 0, 0, 0.15) 0px 5px 15px 0px",borderRadius: '20px'}}
                   />
                 </div>
               </div>

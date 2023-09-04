@@ -9,15 +9,15 @@ function Carousel123() {
                     <img class="w-100" src={require('../Assets/image/carousel-1.jpg') } alt="Image"/>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style={{maxWidth: "900px"}}>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solutions</h1>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src={require('../Assets/image/meeting.avif') } alt="Image"/>
+                    <img class="w-100" src={require('../Assets/image/meeting-1.jpg') } alt="Image"/>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style={{maxWidth: "900px"}}>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solutions</h1>
                             
                         </div>
                     </div>

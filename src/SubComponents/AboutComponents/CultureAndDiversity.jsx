@@ -42,7 +42,7 @@ export default function CultureAndDiversity(){
            <div class="col-lg-5" style={{minHeight: "500px"}}>
              <div class="position-relative h-100">
                <img
-                 class="position-absolute w-100 h-100 rounded wow zoomIn animate__animated animate__zoomIn"
+                 class="position-absolute w-100 h-100 rounded wow zoomIn animate__animated animate__zoomIn "
                  data-wow-delay="0.9s"
                  src={require('../../Assets/image/handMeeting.jpg')}
                  alt="About"

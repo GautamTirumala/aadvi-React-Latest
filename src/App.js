@@ -61,8 +61,12 @@ function App() {
   }, []); 
 
   useEffect(()=>{
+    
     if(location.pathname !== '/' && location.pathname !=='/web_development' && location.pathname !=='/web_design' && location.pathname !=='/staffing_solutions' && location.pathname !=='/mobile_apps' && location.pathname !=='/testing' && location.pathname !=='/iot'){
-    window.scrollTo(0,900);
+    // window.scrollTo(0,900);
+    const windowHeight = window.innerHeight;
+    const scrollPosition = windowHeight * 1.3; 
+    window.scrollTo(0,scrollPosition);
     }
     else{
       window.scrollTo(0,0)
