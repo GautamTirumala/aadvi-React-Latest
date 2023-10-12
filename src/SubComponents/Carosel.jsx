@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Carousel123() {
   return (
     <div>
